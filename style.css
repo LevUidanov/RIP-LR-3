@@ -54,15 +54,23 @@ h1 {
 
 .card-img-top {
     background-color: #ffffff;
-    padding: 20px;
-    height: 200px;
-    object-fit: contain;
+    height: 260px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .card-img-side {
     background-color: #ffffff;
-    padding: 20px;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    min-height: 180px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.credits {
+    width: 100%;
+    margin-top: 30px;
+    color: #9a9a9a;
+    font-size: 0.75rem;
 }

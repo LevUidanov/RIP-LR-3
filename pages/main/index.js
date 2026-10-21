@@ -30,6 +30,7 @@ export class MainPage {
                 <div id="main-page">
                     <h1>ФК Спартак Москва: основной состав</h1>
                     <div id="cards" class="d-flex flex-wrap gap-3"></div>
+                    <p class="credits">Фотографии: Wikimedia Commons, лицензия CC BY-SA 3.0. Авторы: Анна Мейер, Антон Зайцев, Артем Гусев, Вячеслав Евдокимов.</p>
                 </div>
             `
         )
